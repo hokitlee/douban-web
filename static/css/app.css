@@ -1,0 +1,75 @@
+.img-size {
+    height: 300px;
+    width: 250px;
+    border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;
+}
+
+.show{
+    margin-top: 50px;
+}
+
+.movie-title {
+     /*margin: auto;*/
+     white-space: nowrap; /*强制span不换行*/
+     display: inline-block; /*将span当做块级元素对待*/
+     width: 270px; /*限制宽度*/
+     overflow: hidden; /*超出宽度部分隐藏*/
+     text-overflow: unset; /*超出部分以点号代替*/
+     line-height: 1.5;
+     display: block;
+     text-align:center
+ }
+.movie-genres {
+     /*margin: auto;*/
+     white-space: nowrap; /*强制span不换行*/
+     display: inline-block; /*将span当做块级元素对待*/
+     width: 270px; /*限制宽度*/
+     overflow: hidden; /*超出宽度部分隐藏*/
+     text-overflow: unset; /*超出部分以点号代替*/
+     line-height: 1.5;
+     display: block;
+     text-align:center
+ }
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+.foot{
+    text-align:center
+}
+
+.movie_summary{
+    line-height: 30px;
+}
+
+.movie_video{
+    width: 440px;
+    height: 350px;
+    margin: 50px auto;
+}
+
+.popular_comments{
+    margin: 25px auto;
+
+}
+.hr_comment{
+    border: none;
+    border-top: 1px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.hr_top{
+    border: none;
+    border-top: 3px double #676767;
+    /*color: #ff7a64;*/
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+body{
+    /*background: pink;*/
+}
